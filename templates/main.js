@@ -12,5 +12,7 @@ async function run() {
     let n = await eel.py_random()();
     console.log('Got this from Python: ' + n);
 }
-
+function myFunction() {
+    alert("Hello! I am an alert box!!");
+}
 run();

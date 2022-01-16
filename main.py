@@ -12,7 +12,7 @@ def py_random():
 eel.start('index.html', block=False, size=(400, 300))
 
 # Synchronous calls must happen after start() is called
-
+    
 # Get result returned synchronously by
 # passing nothing in second brackets
 #                   v
